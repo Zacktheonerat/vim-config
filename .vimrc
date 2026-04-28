@@ -51,3 +51,9 @@ set scrolloff=8
 " Turn off annoying beeps
 set noerrorbells
 set visualbell
+
+" Exit insert mode by typing 'nn'
+inoremap nn <Esc>
+
+" Exit select/visual-like modes by typing 'nn'
+snoremap nn <Esc>
