@@ -57,3 +57,9 @@ inoremap nn <Esc>
 
 " Exit select/visual-like modes by typing 'nn'
 snoremap nn <Esc>
+
+" Clear search highlighting
+nnoremap <leader>h :nohlsearch<CR>
+
+"Remap leader
+let mapleader = " "
